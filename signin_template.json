@@ -1,0 +1,26 @@
+{
+  "网易云pc": {
+    "host": "music.163.com",
+    "url": "/api/point/dailyTask?csrf_token=placeholder&type=1",
+    "headers": {
+      "Referer": "http://music.163.com/"
+    }
+  },
+  "网易云android": {
+    "host": "music.163.com",
+    "url": "/api/point/dailyTask?csrf_token=placeholder&type=0",
+    "headers": {
+      "Referer": "http://music.163.com/"
+    }
+  },
+  "什么值得买": {
+    "host": "api.smzdm.com",
+    "url": "/v1/user/checkin",
+    "headers": {
+      "user-agent": "smzdm_android_V8.7.8 rv:456 (MI 6;Android8.0.0;zh)smzdmapp",
+      "content-type": "application/x-www-form-urlencoded",
+      "connection": "Keep-Alive",
+      "host": "api.smzdm.com"
+    }
+  }
+}
